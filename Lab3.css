@@ -1,0 +1,60 @@
+body
+{
+    background: lavenderblush url(../images/bg_body.gif) repeat-x;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 100%;
+    color: brown;
+    line-height: 180%;
+    margin:0%;
+    padding:0%;
+    text-align:center;
+}
+
+h1
+{
+    font-size: 22pt;
+    font-weight: bold;
+    margin: 0%;
+    padding-left: 35px;
+    padding-top: 80px;
+    color: purple;
+    text-align: center;
+}
+
+h2
+{
+    font-weight: normal;
+    margin: 1em 0;
+    font-size: 160%;
+}
+
+#container{
+    margin: 20px auto;
+    width: 928px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#header{
+    height: 200px;
+    background: url(../images/bg_header.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+
+#content{
+    background: url(../images/bg_content.gif) repeat-y;
+    padding: 2em 40px;
+    text-align: justify;
+}
+
+#footer{
+    padding: 25px 60px;
+    background: url(../images/bg_header.jpg) no-repeat;
+    background-size: 100% 100%;
+    color: black;
+    text-align: left;
+}
+
+p{
+    margin: 1em 0;
+}
